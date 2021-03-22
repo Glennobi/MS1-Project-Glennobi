@@ -34,7 +34,6 @@ h4 {
     float: none;
 }
 
-.history-heading,
 .section-heading {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
@@ -146,6 +145,10 @@ footer {
     margin: 0;
 }
 
+footer h5 {
+    color: #f47f06 !important;
+}
+
 .social-links {
     padding-bottom: 15px;
 }
@@ -175,6 +178,31 @@ footer {
 }
 
 /* ----- Home Content */
+
+.image-container {
+    height: 100vh;
+    background: url("../myibd.jpg") no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: left; 
+    position: relative;
+}
+
+.home-section {
+    font-family: Arial, Helvetica, sans-serif;
+  /*  font-weight: 300;
+    font-size: 76px;
+    margin-top: 10px;*/
+    color: #fff;
+}
+.content-container {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
 
 /* ----- Web & App and Project Header */
 
