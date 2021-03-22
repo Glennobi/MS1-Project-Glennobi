@@ -28,24 +28,11 @@ h4 {
     display: table;
 }
 
-.section-column {
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
-}
-
-.section-heading {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 40px;
-}
-
 /* ----- Headings */
 header {
     margin: 0;
     background-color: #f47f0b;
-    font: Noto Sans TC;
+    font: Arial, Helvetica, sans-serif;
 }
 
 .heading {
@@ -58,18 +45,18 @@ header {
     background-repeat: no-repeat;
     background-size: contain;
     max-height: 450px; 
-    max-width: 358px;
+    max-width: 358px;    margin-left: 1%;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
 
-.name {
+.main-title {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 46px;
-    margin-top: 50px;
-    color: #fff;
+    margin-top: 30px;
+    color: #475150;
 }
 
 .description {
@@ -77,7 +64,7 @@ header {
     font-weight: 200;
     font-size: 28px;
     margin-top: 20px;
-    margin-bottom: 90px;
+    margin-bottom: 5px;
     color: #fff;
 }
 
@@ -99,16 +86,16 @@ header {
 }
 
 .menuitem {
-    height: 120px;
+    height: 90px;
     text-align: center;
     padding: 0;
 }
 
 .menuitem a {
-    width: 100%;
+    width: 90%;
     text-decoration: none;
     color: #fff;
-    height: 120px;
+    height: 90px;
 }
 
 .menuitem a i {
@@ -133,8 +120,7 @@ header {
 
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
-    height: 120px;
-
+    height: 100% !important;
 }
 
 /* ----- Footer */
@@ -180,7 +166,7 @@ footer h5 {
 /* ----- Home Content */
 
 .image-container {
-    height: 100vh;
+    height: 75vh;
     background: url("../myibd.jpg") no-repeat bottom right fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
