@@ -50,11 +50,43 @@
     <section class="container-fluid image-container">
         <div class="inline-block home-section content-container">   
             <h1>Enquiry</h1>
-            <p> </p>
-            <p> </p>
-            <table>Table of Services</table>
-            <button type="button" class="rounded-circle">Radio buttons</button>
-            <button type="submit" class="rounded-circle">Submit Enquiry</button>
+            <hr> 
+            <form action="https://formdump.codeinstitute.net" method="POST">
+                <div class="form-group">
+                    <label for="name-field">Name</label>
+                    <input id="name-field" type="text" name="full_name" placeholder="Your name">
+                </div>
+                <div class="form-group">
+                    <label for="email-field">Email</label>
+                    <input id="email-field" type="email" name="email" placeholder="Your email address">
+                </div> 
+                <div class="form-group">
+                    <label for="phone-field">Phone</label>
+                    <input id="phone-field" type="number" name="phone" placeholder="Your contact number">
+                </div>
+                <h5 class="questioncolor">Which CADi service(s) are you interested in?</h5>
+                <div class="form-check hvr-sweep-to-bottom">
+                    <input type="checkbox" id="look-checkbox" name="newlook">
+                    <label for="look-checkbox">New logo and look</label>
+                </div>
+                <div class="form-check hvr-sweep-to-bottom">
+                    <input type="checkbox" id="website-checkbox" name="website">
+                    <label for="website-checkbox">Fresh responsive Website</label>
+                </div>
+                <div class="form-check hvr-sweep-to-bottom">
+                    <input type="checkbox" id="app-checkbox" name="app">
+                    <label for="app-checkbox">Mobile App</label>
+                </div>
+                <div class="form-check hvr-sweep-to-bottom">
+                    <input type="checkbox" id="sproject-checkbox" name="sproject">
+                    <label for="sproject-checkbox">Deliver a S/W Project</label>
+                </div>
+                <div class="form-check hvr-sweep-to-bottom">
+                    <input type="checkbox" id="tproject-checkbox" name="tproject">
+                    <label for="tproject-checkbox">Manage a Technical Project</label>
+                </div>  
+                <button type="submit" class="btn btn-primary hvr-sweep-to-bottom subutton">Submit Enquiry</button>
+            </form> 
         </div>
     </section>
 
