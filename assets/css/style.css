@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/* ----- Colours */
-
 /* ----- Paddings, margins & text */
 h1,
 h2,
@@ -74,15 +72,6 @@ header {
 
 .menucontainer {
     font-size: 0;
-}
-
-#nav li {
-    font-size: 14px;
-    padding: 0;
-}
-
-#nav {
-    margin: 0;
 }
 
 .menuitem {
@@ -180,17 +169,13 @@ footer h5 {
 
 .home-section {
     font-family: Arial, Helvetica, sans-serif;
-  /*  font-weight: 300;
-    font-size: 76px;
-    margin-top: 10px;*/
     color: #fff;
 }
+
 .content-container {
     padding-top: 0px;
     padding-bottom: 0px;
 }
-
-/* ----- Web & App and Project Header */
 
 /* ----- Web & App and Project 3 boxes */
 
@@ -206,6 +191,15 @@ footer h5 {
 }
 
 .questioncolor {
-    color: #f47f06 !important;
+    color: #fff !important;
     background-color: #47515080;
+}
+
+.formpad {
+    color: #fff !important;
+    background-color: #47515080;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }

@@ -7,13 +7,13 @@
 # Project Name
 ## “The CADi Website”
 *	My MS1 Project - User Centric Frontend Development.
-*	Construct a static website for my own business, "CADi" (Change Apply Deliver Innovate).
+*	Construct a static website for my own business, "CADi" (Core App Design Innovation).
 *	Developed as part of the December 2020 Code Institute Diploma in Software Development
 # UX
 ## Who this website is for?
 *	This website is being developed by Bill Glennon, for CADi.
 ## About CADi
-*	CADi (Change Apply Deliver Innovate) is software development and a technical project management and delivery business.
+*	CADi (Core App Design Innovation) is software development and a technical project management and delivery business.
 *	It is run by a senior project and programme manager, who is also a qualified software developer, with vast experience in business and in the technical world.
 *	CADi services include:
     *	Software project management and delivery
