@@ -194,6 +194,11 @@ footer h5 {
 
 /* ----- Web & App and Project 3 boxes */
 
+.text-left {
+    text-align: left;
+    background-color: #47515080;
+}
+
 /* ----- Enquiry Form */
 
 .subutton {
