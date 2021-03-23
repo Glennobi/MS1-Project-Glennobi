@@ -51,7 +51,6 @@ header {
 
 .main-title {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
     font-size: 46px;
     margin-top: 30px;
     color: #475150;
@@ -150,6 +149,15 @@ footer h5 {
 
 #footer-details {
     padding: 20px;
+}
+
+.email-send {
+    color: #fff;
+}
+
+.email-send:hover {
+    color: #f47f06;
+    text-decoration: none;
 }
 
 /* ----- Home Content */
