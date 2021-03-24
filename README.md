@@ -152,9 +152,32 @@ I used the following technologies to design, document, construct, test, deliver 
     *	CSS assistance W3schools.com, link https://www.w3schools.com/css/
     *	Bootstrap assistance, W3schools.com, link https://www.w3schools.com/bootstrap4l/   
 # Testing
-TO BE COMPLETED. 
-*	I must convince that I have conducted enough testing to legitimately believe that the site works well.
-*	I will go over user stories and ensure that the site works as intended, users to achieve their goals.
+*  4 page layout - Heading and Footer - Development and Testing
+    *   I developed the common header and footer sections, common across the 4 pages of website.
+    *   I developed the navigation elements and tested between all 4 pages.
+    *   I developed all the containers, their layout and basic content.
+    *   I tested and tuned the layout and responsiveness with basic placeholder text.
+    *   When happy with layout and responsiveness, I applied the content, and tested it again for layout then responsiveness.
+    *   I applied and tested various colour combinations then my logo.
+    *   I experimented and tested various bootstrap and Fon Awesome iconography
+    *   I appled the icongraphy, motions and reactions to the active header elements and tested functionality, appearence and responsiveness.
+    *   I applied same to the active footer elements (email and social links) and tested function and responsiveness.
+    *   When happy with the hearings, footers, navigation and active elements, I set about styling the 4 detailed pages.
+Section - Content Development & Testing
+    *   I had wireframed the content layout, and wrote the content outside Git
+    *   I selected applied and tested the background section imagery for the 4 .
+    *   Page 1 (of 4) - content was straightforward enough, spent time testing various font colours, weights and background opacity.
+        *   It tested well for content, and worked well and responsively with the background image.
+    *   Page 2 & 3 - I decided to use and populate tables for the detailed (Who, What & How).
+    *   I used Bootstrap to hopefully ensure tables were responsive
+        *   While the tables looked great on medium and large devices as of time of writing, I really am struggling with getting the tables to display responsively on the smallest devices.
+         
+
+
+
+
+
+*   I will go over user stories and ensure that the site works as intended, users to achieve their goals.
 TESTING SCENARIOS:
 *	Enquiry Form:
     *	Go to the "Enquiry" page
