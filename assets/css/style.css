@@ -22,10 +22,6 @@ h4 {
     display: inline-block;
 }
 
-.row-table {
-    display: table;
-}
-
 /* ----- Headings */
 header {
     margin: 0;
@@ -38,7 +34,7 @@ header {
 }
 
 .logo {
-    background: url("../cadi.jpg");
+    background: url("../images/cadi.jpg");
     background-position: center; 
     background-repeat: no-repeat;
     background-size: contain;
@@ -164,7 +160,7 @@ footer h5 {
 
 .image-container {
     height: 75vh;
-    background: url("../myibd.jpg") no-repeat bottom right fixed; 
+    background: url("../images/myibd.jpg") no-repeat bottom right fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -185,11 +181,28 @@ footer h5 {
     padding-bottom: 0px;
 }
 
-/* ----- Web & App and Project 3 boxes */
+/* ----- Web & App and Project 3 box tables */
 
 .text-left {
     text-align: left;
     background-color: #47515080;
+}
+
+@media screen and (max-width: 640px) {
+    table th {
+        display: none;
+    }
+
+    table td {
+        display:flex;
+    }
+
+    table td::before {
+        content: attr(label);
+        font-weight: bold;
+        width: 120px;
+        min-width: 120px;
+    }
 }
 
 /* ----- Enquiry Form */
