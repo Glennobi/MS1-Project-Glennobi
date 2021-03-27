@@ -188,21 +188,60 @@ footer h5 {
     background-color: #47515080;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 812px) {
+    h3 {
+        display: none;
+    }
+    #ipho {
+        display: none;
+    }
     table th {
         display: none;
+        padding: 0 !important;
+        margin: 0 !important;
     }
 
     table td {
-        display:flex;
+        display: flex;
+        padding: 0 !important;
+        margin: 0 !important;
     }
 
     table td::before {
         content: attr(label);
         font-weight: bold;
-        width: 120px;
-        min-width: 120px;
+        width: 0px;
+        min-width: 0px;
+        padding: 0;
+        margin: 0;
+    } 
+}
+   
+@media screen and (max-width: 360px) {
+     h3 {
+        display: flex;
     }
+    
+    table th {
+        display: flex;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    table td {
+        display: flex;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    table td::before {
+        content: attr(label);
+        font-weight: bold;
+        width: 0px;
+        min-width: 0px;
+        padding: 0;
+        margin: 0;
+    } 
 }
 
 /* ----- Enquiry Form */
