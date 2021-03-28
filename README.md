@@ -234,6 +234,11 @@ I used the following technologies to design, document, construct, test, deliver 
         *   I wrote a test CSS file to tweak and tune all responsive CSS, and applied and tested rulesa across 10 device types and in protrait and landscape until I got all tables and forms to work well across all screen sizes and layouts.
         *   Key development then testing lesson - START WITH THE SMALLEST DEVICES, and work up!
         *   Key testing lesson - use style_copy.css CSS file so you can REVERT back if you make a mess of the nearly working original!      
+* Code Validation
+    * I ran my HTML code through the [W3C Markup Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgithub.com%2FGlennobi%2FMS1-Project-Glennobi)
+        * On the first run, I had 45 errors and 51 warnings, none of which I understand at time of writing!
+    * I ran my CSS code through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgithub.com%2FGlennobi%2FMS1-Project-Glennobi.git&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#errors) 
+        * On the first run, I had 106 errors and 7250 (!) warnings, I will need help here!
 
 ## TESTING SCENARIOS:
 *	External nav links across the project:
