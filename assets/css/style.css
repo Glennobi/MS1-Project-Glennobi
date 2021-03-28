@@ -174,6 +174,7 @@ footer h5 {
 .home-section {
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
+    background-color: #47515080;
 }
 
 .content-container {
@@ -181,7 +182,7 @@ footer h5 {
     padding-bottom: 0px;
 }
 
-/* ----- Web & App and Project 3 box tables */
+/* ----- Web & App and Project tables, responsivness */
 
 .text-left {
     text-align: left;
@@ -192,9 +193,7 @@ footer h5 {
     h3 {
         display: none;
     }
-    #ipho {
-        display: none;
-    }
+    
     table th {
         display: none;
         padding: 0 !important;
@@ -206,18 +205,9 @@ footer h5 {
         padding: 0 !important;
         margin: 0 !important;
     }
-
-    table td::before {
-        content: attr(label);
-        font-weight: bold;
-        width: 0px;
-        min-width: 0px;
-        padding: 0;
-        margin: 0;
-    } 
 }
    
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 415px) {
      h3 {
         display: flex;
     }
@@ -233,15 +223,29 @@ footer h5 {
         padding: 0 !important;
         margin: 0 !important;
     }
+}  
 
-    table td::before {
-        content: attr(label);
-        font-weight: bold;
-        width: 0px;
-        min-width: 0px;
-        padding: 0;
-        margin: 0;
-    } 
+@media screen and (min-height: 720px) and (min-width: 767px) {
+     h3 {
+        display: flex;
+        padding: 50 !important;
+        margin: 50 !important;
+        font-weight: bolder;
+        font-size: xx-large;
+    }
+    
+    table th {
+        padding: 50 !important;
+        margin: 50 !important;
+        font-weight: bolder;
+        font-size: x-large;
+    }
+
+    table td {
+        padding: 50 !important;
+        margin: 50 !important;
+        font-size: large;
+    }
 }
 
 /* ----- Enquiry Form */
@@ -262,4 +266,31 @@ footer h5 {
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
+}
+/************** Special conditions for folding or tiny screen widths ***/
+
+@media screen and (max-width: 321px) {
+    h1 {
+        display: flex !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        font-weight: lighter !important;
+        font-size: 30px !important;
+    } 
+    h3 {
+        display: none !important;
+    }  
+    h6 {
+        display: flex !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        font-weight: lighter !important;
+        font-size: 15px !important;
+    }
+
+}
+@media screen and (max-height: 321px) {
+    .home-section, .formpad, .question-color  {
+        background-color: rgba(0, 0, 0, 0.01) !important;
+    } 
 }
