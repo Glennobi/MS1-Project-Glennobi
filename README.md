@@ -253,10 +253,15 @@ I used the following technologies to design, document, construct, test, deliver 
     *	I tried to submit the form with an invalid email address and verified that a relevant error message appears
     *	I submitted the form with all inputs valid and verified that a "Code Institute" success message appears.
     *   I tested and verified that the form "Reset" button does just that.
-*	I developed the project in Google Chrome and tested it there and on Microsoft Edge
-    *   It looked and worked identically on both 
+*	I developed the project in Google Chrome and tested it there, on Firefox. Internet Explorer and on Microsoft Edge
+    *   It looked and worked well on all EXCEPT for the following:
+            *   Firefox was by far the best in terms of speed. On Page 4 of my website, my Enquiry Form, the tick boxes turn my grey colour, when selected on my form, as I wanted it.
+            *   On Microsoft Edge, again, on Page 4 of my website, my Enquiry Form, the tick boxes turn my grey colour, when selected on my form, as I wanted it.
+            *   On Google Chrome, they turn Bootstrap blue, and I can't change it!
+            *   On Internet Explorer, I lost all opaque grey backgrounds on my Sections, on all pages, texts, tables and forms.  
     *	I tested responsivness in both portrait and landscape modes on:
         *	Moto G4, Galaxy S5, Pixel 2, Pixel 2XL, iPhone 5, 6, 7, 8, X, iPad, iPad Pro, Surface Duo, Galaxy Fold, Galaxy Note III
+        *   See "bugs" section below.
 *	List of bugs or problems discovered.
     *   Un-ordered lists within tables are extremely difficult to display and make responsive on small and medium devices.
     *   After loads of attempts, I scrapped the Unordered Lists and replaced them with new responsive table rows.
@@ -266,11 +271,24 @@ I used the following technologies to design, document, construct, test, deliver 
     *   Researched and found @media solutions to override CSS rules. Found "!important" keyword extremely helpful, in re-enforcing design and layout changes!
 
 # Deployment
-*   TO BE COMPLETED. 
 
-##	Deployed to GitHub Pages.
+##	Deployed to the cloud, GitHub Pages.
+*   I have deployed my project to [GitHub Pages](https://glennobi.github.io/MS1-Project-Glennobi/enquiry.html).
+*   Procedure followed:
+    *   Selected my Project on Github
+    *   Selected "Settings" tab
+    *   Scrolled down to "Github Pages"
+    *   Selected the "Source" as "branch" and "master"
+    *   Saved the project
 
-##	Run code locally.
+##	Deployed locally, GitHub Desktop.
+*   I downloaded the [GitHub Desktop Application](https://desktop.github.com/)
+*   Procedure followed:
+    *   Selected my Project on Github
+    *   Selected "Code" button
+    *   Select "Open with GitHub Desktop"
+    *   Selected the "Source" as "branch" and "master"
+    *   Saved the project
 
 # Credits
 
