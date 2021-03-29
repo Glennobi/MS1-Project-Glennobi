@@ -1,10 +1,13 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
 # Project Owner
 *	Name: Bill Glennon.
 *	Commenced: 4th March 2021.
 *	User: Glennobi
 *	[Email: wglennon@outlook.ie](mailto:wglennon@outlook.ie)
+
+## Developed for:
+![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+## and:
+![CADi logo](./assets/images/cadi.jpg)
 
 # Project Name
 
@@ -211,36 +214,49 @@ I used the following technologies to design, document, construct, test, deliver 
     *	Bootstrap assistance, [W3schools.com](https://www.w3schools.com/bootstrap4l/)   
 
 # Testing
-*  4 page layout - Heading and Footer - Development and Testing
-    *   I developed the common header and footer sections, common across the 4 pages of website.
-    *   I developed the navigation elements and tested between all 4 pages.
-    *   I developed all the containers, their layout and basic content.
-    *   I tested and tuned the layout and responsiveness with basic placeholder text.
-    *   When happy with layout and responsiveness, I applied the content, and tested it again for layout then responsiveness.
-    *   I applied and tested various colour combinations then my logo.
-    *   I experimented and tested various bootstrap and Fon Awesome iconography
-    *   I appled the icongraphy, motions and reactions to the active header elements and tested functionality, appearence and responsiveness.
-    *   I applied same to the active footer elements (email and social links) and tested function and responsiveness.
-    *   When happy with the hearings, footers, navigation and active elements, I set about styling the 4 detailed pages.
-*   Section - Content Development & Testing
-    *   I had wireframed the content layout, and wrote the content outside Git
-    *   I selected applied and tested the background section imagery for the 4 .
-    *   Page 1 (of 4) - content was straightforward enough, spent time testing various font colours, weights and background opacity.
-        *   It tested well for content, and worked well and responsively with the background image.
-    *   Page 2 & 3 - I decided to use and populate tables for the detailed (Who, What & How).
-    *   Pages 2, 3 & 4 - I used Bootstrap and tailored CSS to ensure tables and forms were responsive
-        *   While the tables and forms looked great on medium and large devices, it was challenging getting them to display responsively on the smallest devices, especially the Samsung Fold and iPhone 5.
-        *   I recorderd the screesizes of all the most common devices
-        *   I wrote a test CSS file to tweak and tune all responsive CSS, and applied and tested rulesa across 10 device types and in protrait and landscape until I got all tables and forms to work well across all screen sizes and layouts.
-        *   Key development then testing lesson - START WITH THE SMALLEST DEVICES, and work up!
-        *   Key testing lesson - use style_copy.css CSS file so you can REVERT back if you make a mess of the nearly working original!      
-* Code Validation
-    * I ran my HTML code through the [W3C Markup Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgithub.com%2FGlennobi%2FMS1-Project-Glennobi)
-        * On the first run, I had 45 errors and 51 warnings, none of which I understand at time of writing!
-    * I ran my CSS code through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgithub.com%2FGlennobi%2FMS1-Project-Glennobi.git&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#errors) 
-        * On the first run, I had 106 errors and 7250 (!) warnings, I will need help here!
 
-## TESTING SCENARIOS:
+## Heading and Footer - Development and Testing
+*   I developed the common header and footer sections, common across the 4 pages of website.
+*   I developed the navigation elements and tested between all 4 pages.
+*   I developed all the containers, their layout and basic content.
+*   I tested and tuned the layout and responsiveness with basic placeholder text.
+*   When happy with layout and responsiveness, I applied the content, and tested it again for layout then responsiveness.
+*   I applied and tested various colour combinations then my logo.
+*   I experimented and tested various bootstrap and Font Awesome iconography
+*   I appled the icongraphy, motions and reactions to the active header elements and tested functionality, appearence and responsiveness.
+*   I applied same to the active footer elements (email and social links) and tested function and responsiveness.
+*   When happy with the hearings, footers, navigation and active elements, I set about styling the 4 detailed pages.
+
+## Section - Content Development & Testing
+*   I had wireframed the content layout, and wrote the content outside Git
+*   I selected applied and tested the background section imagery for the 4 .
+*   Page 1 (of 4) - content was straightforward enough, spent time testing various font colours, weights and background opacity.
+    *   It tested well for content, and worked well and responsively with the background image.
+*   Page 2 & 3 - I decided to use and populate tables for the detailed (Who, What & How).
+*   Pages 2, 3 & 4 - I used Bootstrap and tailored CSS to ensure tables and forms were responsive
+    *   While the tables and forms looked great on medium and large devices, it was challenging getting them to display responsively on the smallest devices, especially the Samsung Fold and iPhone 5.
+    *   I recorderd the screesizes of all the most common devices
+    *   I wrote a test CSS file to tweak and tune all responsive CSS, and applied and tested rulesa across 10 device types and in protrait and landscape until I got all tables and forms to work well across all screen sizes and layouts.
+    *   Key development then testing lesson - START WITH THE SMALLEST DEVICES, and work up!
+    *   Key testing lesson - use style_copy.css CSS file so you can REVERT back if you make a mess of the nearly working original!      
+
+## Code Validation
+* I ran my 4 HTML files through the [W3C Markup Validator](https://validator.w3.org/)
+    * I have NO ERRORS on my index.html file, [index.html - green banner](https://validator.w3.org/nu/?doc=https%3A%2F%2Fglennobi.github.io%2FMS1-Project-Glennobi%2Findex.html)
+    * I have NO ERRORS on my webapp.html file, [webapp.html - green banner](https://validator.w3.org/nu/?doc=https%3A%2F%2Fglennobi.github.io%2FMS1-Project-Glennobi%2Fwebapp.html)
+    * I have NO ERRORS on my project.html file, [project.html - green banner](https://validator.w3.org/nu/?doc=https%3A%2F%2Fglennobi.github.io%2FMS1-Project-Glennobi%2Fproject.html)
+    * I have NO ERRORS on my enquiry.html file, [enquiry.html - green banner](https://validator.w3.org/nu/?doc=https%3A%2F%2Fglennobi.github.io%2FMS1-Project-Glennobi%2Fenquiry.html)
+* I ran my CSS file thtough the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+    * I have NO ERRORS on my style.css file, [style.css - green banner](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fglennobi.github.io%2FMS1-Project-Glennobi%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+ 
+## Website Performance
+* I ran my 4 HTML files through the [Google PageSpeed to get Lighthouse scores](https://developers.google.com/speed/pagespeed/insights/)
+    * [index.html score 99% desktop 88% mobile](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fglennobi.github.io%2FMS1-Project-Glennobi%2Findex.html&tab=desktop)
+    * [webapp.html score 99% desktop 87% mobile](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fglennobi.github.io%2FMS1-Project-Glennobi%2Fwebapp.html&tab=desktop)
+    * [project.html score 99% desktop 88% mobile](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fglennobi.github.io%2FMS1-Project-Glennobi%2Fproject.html&tab=desktop)
+    * [enquiry.html score 99% desktop 87% mobile](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fglennobi.github.io%2FMS1-Project-Glennobi%2Fenquiry.html&tab=desktop)
+
+## Testing Scenarios
 *	External nav links across the project:
     *	Tested that all links change aspect and colour to ORANGE when hovered over then selected.
     *	I clicked all links to ensure they worked, and enure they opened in a New Tab
@@ -253,27 +269,38 @@ I used the following technologies to design, document, construct, test, deliver 
     *	I tried to submit the form with an invalid email address and verified that a relevant error message appears
     *	I submitted the form with all inputs valid and verified that a "Code Institute" success message appears.
     *   I tested and verified that the form "Reset" button does just that.
-*	I developed the project in Google Chrome and tested it there, on Firefox. Internet Explorer and on Microsoft Edge
-    *   It looked and worked well on all EXCEPT for the following:
-            *   Firefox was by far the best in terms of speed. On Page 4 of my website, my Enquiry Form, the tick boxes turn my grey colour, when selected on my form, as I wanted it.
-            *   On Microsoft Edge, again, on Page 4 of my website, my Enquiry Form, the tick boxes turn my grey colour, when selected on my form, as I wanted it.
-            *   On Google Chrome, they turn Bootstrap blue, and I can't change it!
-            *   On Internet Explorer, I lost all opaque grey backgrounds on my Sections, on all pages, texts, tables and forms.  
+*	I developed the project in Google Chrome and tested it there, on Firefox, Internet Explorer and on Microsoft Edge
+    *   It looked and worked well on all 4 browsers, noting the following:
+        *   Firefox was by far the best in terms of speed and responsiveness. On Page 4 of my website, my Enquiry Form, the tick boxes turn my grey colour, when selected on my form, as I wanted it.
+        *   On Microsoft Edge, again, on Page 4 of my website, my Enquiry Form, the tick boxes turn my grey colour, when selected on my form, as I wanted it.
+        *   On Google Chrome, they turn Bootstrap blue, and I could not over-ride this with loads of custom CSS!
+        *   On Internet Explorer, I lost all opaque grey backgrounds on my Sections on all pages, texts, tables and forms. On speaking to a colleague, this is not unusual, in fact most development companies do not support Internet Explorer anymore.  
     *	I tested responsivness in both portrait and landscape modes on:
         *	Moto G4, Galaxy S5, Pixel 2, Pixel 2XL, iPhone 5, 6, 7, 8, X, iPad, iPad Pro, Surface Duo, Galaxy Fold, Galaxy Note III
         *   See "bugs" section below.
-*	List of bugs or problems discovered.
-    *   Un-ordered lists within tables are extremely difficult to display and make responsive on small and medium devices.
-    *   After loads of attempts, I scrapped the Unordered Lists and replaced them with new responsive table rows.
-    *   A good help to develop and test responsitivity is to draw a table of all common devices, and record their screen size width and height in portrait and landscape, IN SIZE ORDER.
-    *   It is easier to start small and design up, than the other way around.
-    *   Inserting background images can change specificity and ruin a good layout!
-    *   Researched and found @media solutions to override CSS rules. Found "!important" keyword extremely helpful, in re-enforcing design and layout changes!
+
+## Bugs.
+*   Un-ordered lists within tables are extremely difficult to display and make responsive on small and medium devices.
+*   After loads of attempts, I scrapped the Unordered Lists and replaced them with new responsive table rows instead.
+*   A good help to develop and test responsitivity is to draw a table of all common devices, and record their screen size width and height, in portrait and landscape, IN SIZE ORDER.
+*   It is easier to start small and design up, than the other way around.
+*   Inserting background images can change specificity and ruin a good layout! I had some playing around with various CSS "background" properties to gat it working.
+*   Researched and found @media solutions to override CSS rules. Found "!important" keyword extremely helpful, in re-enforcing design and layout changes!
+*   I found the only way to develop and avoid a lot of bugs:
+    *   develop the project in stages from your wireframe
+    *   using tight semantic HTML, developing all the common areas of all the pages of the site, Header and Footer first
+    *   style these areas for the smallest devices up
+    *   then design & develop the individual and unique Sections last
+    *   style these Sections for the smallest devices upwards(this was the most time-consuming part of the project, 90% of the time getting the last 10% right!)
+
+## Other Problems.
+*   I had a lot of problems with GitHub, GitPod and Github Pages.
+*   Whilst the "cheat-sheet" helped, I believe all course material needs to be updated in relation to repositories, workspaces and deployment (from Cloud9 etc).
 
 # Deployment
 
 ##	Deployed to the cloud, GitHub Pages.
-*   I have deployed my project to [GitHub Pages](https://glennobi.github.io/MS1-Project-Glennobi/enquiry.html).
+*   Check out my project! Rather than use screenshots, here is a direct link to my deployed my project to [GitHub Pages](https://glennobi.github.io/MS1-Project-Glennobi/index.html).
 *   Procedure followed:
     *   Selected my Project on Github
     *   Selected "Settings" tab
@@ -292,9 +319,13 @@ I used the following technologies to design, document, construct, test, deliver 
 
 # Credits
 
+## Code
+*	Apart from the use of the recommended Code Institute boilerplates, and the use of Gitpod pre-emptive syntax, all this code and it's structure belongs to Bill Glennon.
+*   Code structure and layout, naturally, were influenced by the sample projects on the course. 
+
 ## Content
 *	The colour scheme and the CADi logo were developed and designed by Paul Harkin and I, at House Of Design. See [House Of Design](https://houseofdesign.ie/about/)
-*	The content was developed solely by Bill Glennon.
+*	The content was developed solely by Bill Glennon of CADi.
 
 ## Media
 *	Imagery / photos used in this site were kindly obtained from Paul Harkin, at House Of Design. See [House Of Design](https://houseofdesign.ie/about/) 
