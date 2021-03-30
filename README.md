@@ -1,6 +1,7 @@
 # Project Owner
 *	Name: Bill Glennon.
 *	Commenced: 4th March 2021.
+*   Updated: 30th March 2021.
 *	User: Glennobi
 *	[Email: wglennon@outlook.ie](mailto:wglennon@outlook.ie)
 
@@ -12,9 +13,9 @@
 # Project Name
 
 ## “The CADi Website”
-*	My MS1 Project - User Centric Frontend Development.
-*	Construct a static website for my own business, "CADi" (Core App Design Innovation).
-*	Developed as part of the December 2020 Code Institute Diploma in Software Development
+*   Check out my project, deployed on [GitHub Pages](https://glennobi.github.io/MS1-Project-Glennobi/index.html).
+*	My MS1 Project - User Centric Frontend Development, to construct a static website for my own business, "CADi" (Core App Design Innovation).
+*	Developed as part of the Code Institute Diploma in Software Development, started in December 2020.
 
 # Project Description
 
@@ -42,15 +43,17 @@
 
 # UX
 
-## CADi User Types and their User Stories:
+## CADi User Stories:
 
-*	The SME sector business users:
+*	I am an SME sector business user:
     *	As a small business owner, living in very uncertain and socially distant times, I want to leverage the internet, to continue to be able to service existing customers, and still grow my business to service a new online audience.
     *	I want an online shop window to display my services, the ability to transact online, and to avail of government support and funding to transition my business. I want a local company, that I trust and would understand my business, to develop this for me.
     *   I want a local trusted provider, that I can talk to directly when permitted.
     *   I want to be easily able to contact CADi straight from it's website.
-    *   To do this I expect my provider to have a simple easy to use website, with ease of use and direct contact capability.  
-*	Charity or Community Project users:
+    *   To do this I expect to find a local provider with
+        *   a simple easy to use website, that's easy to navigate around
+        *   can locate and has direct, quick contact capability.  
+*	We are a Charity and/or Community Project users:
     *	We would like to develop and launch a new corporate look, a fresh modern website and a mobile app to aid, assist and support our members. The app and website should:
         *	Reach out all our members & their families, allow members and their family members to connect together & share their experiences 
         *	Provide assistance, track activities and events
@@ -59,25 +62,47 @@
         *	Run on all platforms, conform to GDPR
     *	We expect our providers own website to have the same characteristics!
     *   I want a local trusted provider, that I can talk to directly when permitted.
-    *   I want to be easily able to contact CADi straight from it's website.    
+    *   I want to be able to contact CADi straight from it's website.    
     *	As a charity / community project, we cannot afford a large development company, and would like to find a local agile dependable company to develop and support our look, app and website, a company that we can meet easily, and understands our local needs, and can adapt to future change.
-*	Contract recruiter, looking for contract project or programme managers:
+*	We are Contract Recruiters, looking for contract Project, Programme and Service Delivery Managers:
     *	As a contract recruiter, I want to be able to quickly find the right project managers and get a very clear picture of who they are and what they can do. I want evidence that they can fill the roles I need to fill for my clients.
     *	I want to be able to find and contact a resource easily and quickly, as suitable roles arise.
-    *   I want to be able to contact a contractor easily, and find out more information if I need it.
-    *   I eant to know where they are located.
-*	Large corporate, looking for a contract project or programme manager:
-        *	As a senior manager in a large corporate, I want to be able to clearly see potential project managers, amongst applications, their skills and experience, and suitability to the role, without having to trawl the internet and agencies.
-        *	I want to be able to reference, remember and hire a flexible resource to meet my immediate need.
-        *   I want to access the contractors LinkedIn profile.
-        *   I want to see examples of their previous work.
-*	Governmental institution, looking for a project to be managed, delivered and closed:
+    *   I want to be able to contact a contractor via email, and find out more information if I need it.
+    *   I want to know where they are located.
+*	I work in HR in a Large corporate, I'm looking for a contract project, programme and service managers:
+    *	As a senior manager in a large corporate, I want to be able to clearly see potential project managers, amongst applications, their skills and experience, and suitability to the role, without having to trawl the internet and agencies.
+    *	I want to be able to reference, remember and hire a flexible resource to meet my immediate need.
+    *   I want to access the contractors LinkedIn profile.
+    *   I want to see examples of their previous work.
+*	I work for a Governmental institution, I'm looking for a project to be managed, delivered and closed:
     *	As a reviewer of tenders, I want to be able to clearly see an IT manager, their skills and experience, have them stand out, without having to trawl the internet and agencies.
     *	I want to be able to get a picture, additional information and hire an appropriate resource.
     *   I want to access the contractors LinkedIn profile.
     *   I want to see examples of their previous work.   
 
-# UXD
+## Features for CADi Users
+
+### Existing Features
+*	Feature 1, Four clear, common Navigation Buttons
+    *   as a user, this allows me to navigate easily and instinctively between each of the four pages, using buttons, common on each of the four pages of the website, without needing to use the browser refresh or “back” buttons. It’s browser independent, once you stay on the site.
+*   Feature 2, Find Us, a Google Map link on home page
+    *   as a small business, charity or community user, I can open CADI's location in Google Maps, and see CADi hq in a seperate tab. This is very reassuring that I CADi has a physical local presence.
+*   Feature 3, Generate an email
+    *   as a user, this link allows me to instantly create and open an email to CADi, for direct contact and a detailed non-standard enquiry.
+*	Feature 4, External Links to Social
+    *   as a corporate user, recruiter or governmantal agency, this feature allow me to link to the CADi owner’s LinkedIn profile, and to Skype. These open on a separate browser tab, to ensure my browser will “stick” with the CADi site, wherever I roam.
+*   Feature 5, External links to CADi past work
+    *   as a recruiter, I can quickly see CADi's experience and qualifications.
+    *   as a small business user I can see examples of CADi's past work and style    
+*	Feature 6, Enquiry form
+    *   as a user I can fill the user enquiry form, with minimal typing to initiate a service enquiry quickly.
+
+### Features Left to Implement
+*	Enable Feature 6 – the Enquiry form, to allow real user enquiries to be easily and quickly submitted.
+*	Develop fully active features - and enable 3 more dynamic functions on a new page
+    *   develop blog, news and map location sections.
+*	Tie in to a payment systems like Stripe or PayPal.
+*   Tie into a quotation, invoicing and accounting system.
 
 ## Strategy
 *	User Needs - What does CADi want for it’s visitors?
@@ -121,6 +146,7 @@
         *   display CADi’s overall services
         *   give the details behind 2 specific service sets, Web & App development and Project Management
         *   show CADi's contact details
+        *   show CADi's location
         *   give easy live access through links to social media
         *   allow direct contact to CADi via email. 
     *   There is an enquiry form that users may fill and perform a dummy submit.
@@ -172,21 +198,6 @@
     *	Imagery used reflects former project
     *	The Bootstrap CSS frame work will be used, with custom CSS styling where needed for local colours and logo, or challenging responsiveness issues. 
 
-# Features
-
-## Existing Features
-*	Feature 1, Navigation - allows users to navigate easily between each of the four pages, using buttons, common on each of the four pages of the website, without needing to use the browser refresh or “back” buttons. It’s browser independent, once you stay on the site.
-*	Feature 2, External Links – 1 to the CADi owner’s LinkedIn profile, one to Skype. These will be opened on a separate page, to ensure our user and their browser will “stick” with our site until they close it.
-*   Feature 3, A link to create and ope an email to CADi by the user
-*   Feature 4, External links to CADi past work, experiences, qualifications
-*	Feature 5, Enquiry form – The 4th page will be a full user enquiry form, with toggle buttons to select the appropriate services a user wants to enquire on. The form will take input, but will not be active at this stage of the course (MS1).
-*   Feature 6, ONE subtle "Find Us" link to open location in Google Maps in seperate tab.
-
-## Features Left to Implement
-*	Enable Feature 5 – Enable the Enquiry form, to generate real user enquiries to be easily and quickly submitted.
-*	Develop fully active features - and enable 3 more dynamic functions on a new page - develop blog, news and map location sections.
-*	Tie in to accounting and payment systems like Stripe or PayPal.
-
 # Technologies Used
 I used the following technologies to design, document, construct, test, deliver and deploy this project: 
 *	Wireframing and Design:	
@@ -194,8 +205,8 @@ I used the following technologies to design, document, construct, test, deliver 
     *	Colours and text, Microsoft Paint, Powerpoint, Word, Adobe Acrobat.
     *	Documentation assistance, Mountain Goat, [Mountain Goat Software](https://www.mountaingoatsoftware.com/agile/user-stories) 
 *	Coding Languages: 
-    *	HTML 5 through the [Code Institute Software Development Diploma programme](https://codeinstitute.net/) 
-    *	CSS 3 through the [Code Institute Software Development Diploma programme](https://codeinstitute.net/) 
+    *	[HTML 5](https://en.wikipedia.org/wiki/HTML5) 
+    *	[CSS 3](https://en.wikipedia.org/wiki/CSS) 
     *	[Bootstrap 4.1](https://getbootstrap.com/) 
     *	[Font Awesome iconography](https://fontawesome.com/) 
 *	Project build Frameworks and Deployment: 
@@ -215,19 +226,21 @@ I used the following technologies to design, document, construct, test, deliver 
 
 # Testing
 
-## Heading and Footer - Development and Testing
+## User Story Testing
+
+### Heading and Footer Testing
 *   I developed the common header and footer sections, common across the 4 pages of website.
-*   I developed the navigation elements and tested between all 4 pages.
-*   I developed all the containers, their layout and basic content.
+*   I tested the navigation elements between all 4 pages.
+*   I tested all the navigation containers, their functionality and appearance.
 *   I tested and tuned the layout and responsiveness with basic placeholder text.
-*   When happy with layout and responsiveness, I applied the content, and tested it again for layout then responsiveness.
+*   When happy with layout, response and responsiveness, I applied the content, and tested it again for layout then responsiveness.
 *   I applied and tested various colour combinations then my logo.
 *   I experimented and tested various bootstrap and Font Awesome iconography
 *   I appled the icongraphy, motions and reactions to the active header elements and tested functionality, appearence and responsiveness.
 *   I applied same to the active footer elements (email and social links) and tested function and responsiveness.
 *   When happy with the hearings, footers, navigation and active elements, I set about styling the 4 detailed pages.
 
-## Section - Content Development & Testing
+### Section and Content Testing
 *   I had wireframed the content layout, and wrote the content outside Git
 *   I selected applied and tested the background section imagery for the 4 .
 *   Page 1 (of 4) - content was straightforward enough, spent time testing various font colours, weights and background opacity.
@@ -240,7 +253,22 @@ I used the following technologies to design, document, construct, test, deliver 
     *   Key development then testing lesson - START WITH THE SMALLEST DEVICES, and work up!
     *   Key testing lesson - use style_copy.css CSS file so you can REVERT back if you make a mess of the nearly working original!      
 
-## Code Validation
+### External nav links across the project:
+*	Tested that all links change aspect and colour to ORANGE when hovered over then selected.
+*	I clicked all links to ensure they worked, and enure they opened in a New Tab
+
+### Internal nav links:
+*	Tested that all links change aspect and colour to a darker GREY when hovered over then selected.
+*	I clicked all links to ensure they worked, and enure they opened the correct page. The logo also act as a navigation to the home page.
+
+### Enquiry Form:
+*	Went to the "Enquiry" page
+*	Filled the empty form and verified that an error message about the required fields appears
+*	I tried to submit the form with an invalid email address and verified that a relevant error message appears
+*	I submitted the form with all inputs valid and verified that a "Code Institute" success message appears.
+*   I tested and verified that the form "Reset" button does just that.
+
+## Code Validation Testing
 * I ran my 4 HTML files through the [W3C Markup Validator](https://validator.w3.org/)
     * I have NO ERRORS on my index.html file, [index.html - green banner](https://validator.w3.org/nu/?doc=https%3A%2F%2Fglennobi.github.io%2FMS1-Project-Glennobi%2Findex.html)
     * I have NO ERRORS on my webapp.html file, [webapp.html - green banner](https://validator.w3.org/nu/?doc=https%3A%2F%2Fglennobi.github.io%2FMS1-Project-Glennobi%2Fwebapp.html)
@@ -249,35 +277,25 @@ I used the following technologies to design, document, construct, test, deliver 
 * I ran my CSS file thtough the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
     * I have NO ERRORS on my style.css file, [style.css - green banner](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fglennobi.github.io%2FMS1-Project-Glennobi%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
  
-## Website Performance
+## Website Performance Testing
 * I ran my 4 HTML files through the [Google PageSpeed to get Lighthouse scores](https://developers.google.com/speed/pagespeed/insights/)
     * [index.html score 99% desktop 88% mobile](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fglennobi.github.io%2FMS1-Project-Glennobi%2Findex.html&tab=desktop)
     * [webapp.html score 99% desktop 87% mobile](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fglennobi.github.io%2FMS1-Project-Glennobi%2Fwebapp.html&tab=desktop)
     * [project.html score 99% desktop 88% mobile](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fglennobi.github.io%2FMS1-Project-Glennobi%2Fproject.html&tab=desktop)
     * [enquiry.html score 99% desktop 87% mobile](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fglennobi.github.io%2FMS1-Project-Glennobi%2Fenquiry.html&tab=desktop)
 
-## Testing Scenarios
-*	External nav links across the project:
-    *	Tested that all links change aspect and colour to ORANGE when hovered over then selected.
-    *	I clicked all links to ensure they worked, and enure they opened in a New Tab
-*	Internal nav links:
-    *	Tested that all links change aspect and colour to a darker GREY when hovered over then selected.
-    *	I clicked all links to ensure they worked, and enure they opened the correct page. The logo also act as a navigation to the home page.
-*  	Enquiry Form:
-    *	Went to the "Enquiry" page
-    *	Filled the empty form and verified that an error message about the required fields appears
-    *	I tried to submit the form with an invalid email address and verified that a relevant error message appears
-    *	I submitted the form with all inputs valid and verified that a "Code Institute" success message appears.
-    *   I tested and verified that the form "Reset" button does just that.
-*	I developed the project in Google Chrome and tested it there, on Firefox, Internet Explorer and on Microsoft Edge
-    *   It looked and worked well on all 4 browsers, noting the following:
-        *   Firefox was by far the best in terms of speed and responsiveness. On Page 4 of my website, my Enquiry Form, the tick boxes turn my grey colour, when selected on my form, as I wanted it.
-        *   On Microsoft Edge, again, on Page 4 of my website, my Enquiry Form, the tick boxes turn my grey colour, when selected on my form, as I wanted it.
-        *   On Google Chrome, they turn Bootstrap blue, and I could not over-ride this with loads of custom CSS!
-        *   On Internet Explorer, I lost all opaque grey backgrounds on my Sections on all pages, texts, tables and forms. On speaking to a colleague, this is not unusual, in fact most development companies do not support Internet Explorer anymore.  
-    *	I tested responsivness in both portrait and landscape modes on:
-        *	Moto G4, Galaxy S5, Pixel 2, Pixel 2XL, iPhone 5, 6, 7, 8, X, iPad, iPad Pro, Surface Duo, Galaxy Fold, Galaxy Note III
-        *   See "bugs" section below.
+## Browser Compatibility Testing
+*   I developed the project in Google Chrome and tested it there, on Firefox, Internet Explorer and on Microsoft Edge.
+*   It looked and worked well on all 4 browsers, noting the following:
+    *   Firefox was by far the best in terms of speed and responsiveness. On Page 4 of my website, my Enquiry Form, the tick boxes turn my grey colour, when selected on my form, as I wanted it.
+    *   On Microsoft Edge, again, on Page 4 of my website, my Enquiry Form, the tick boxes turn my grey colour, when selected on my form, as I wanted it.
+    *   On Google Chrome, they turn Bootstrap blue, and I could not over-ride this with loads of custom CSS!
+    *   On Internet Explorer, I lost all opaque grey backgrounds on my Sections on all pages, texts, tables and forms. On speaking to a colleague, this is not unusual, in fact most development companies do not support Internet Explorer anymore.  
+    
+## Responsiveness Testing 
+*   I tested responsivness in both portrait and landscape modes on:
+    *   Moto G4, Galaxy S5, Pixel 2, Pixel 2XL, iPhone 5, 6, 7, 8, X, iPad, iPad Pro, Surface Duo, Galaxy Fold, Galaxy Note III
+    *   See "bugs" section below.
 
 ## Bugs.
 *   Un-ordered lists within tables are extremely difficult to display and make responsive on small and medium devices.
@@ -299,8 +317,8 @@ I used the following technologies to design, document, construct, test, deliver 
 
 # Deployment
 
-##	Deployed to the cloud, GitHub Pages.
-*   Check out my project! Rather than use screenshots, here is a direct link to my deployed my project to [GitHub Pages](https://glennobi.github.io/MS1-Project-Glennobi/index.html).
+##	Deployed to the Cloud.
+*   Check out my project! Rather than use screenshots, here is a direct link to my deployed my project on [GitHub Pages](https://glennobi.github.io/MS1-Project-Glennobi/index.html).
 *   Procedure followed:
     *   Selected my Project on Github
     *   Selected "Settings" tab
@@ -308,7 +326,7 @@ I used the following technologies to design, document, construct, test, deliver 
     *   Selected the "Source" as "branch" and "master"
     *   Saved the project
 
-##	Deployed locally, GitHub Desktop.
+##	Deployed locally to Desktop.
 *   I downloaded the [GitHub Desktop Application](https://desktop.github.com/)
 *   Procedure followed:
     *   Selected my Project on Github
